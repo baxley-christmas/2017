@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>qwertyuiopasdfghjklzxcvbnm</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Welcome Mommy!
+        </h1>
+        
+        <p>
+            Here begins your journey. Riddles will either require answers in the form of case-sensitive letters, numbers, or both. Best of luck!
+        </p>
+        
+        <form>
+            <br/>
+            Solve this riddle and you will see,<br/>
+            Possibly that your children can be,<br/>
+            All around good kids, not cloistered,<br/>
+            Thanks to you, afterall, the world is their oyster.<br/>
+            <input type="text" name="r1"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+            
+            Holst it right there! To earn the title of Bringer of Jollity, this will require a sacrifice of:<br/>
+            <input type="text" name="r2"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+            
+            Find the difference between...<br/> 
+            Homer's famous story gone vehicular, and a shoot'em up vigilante.<br/>
+            An adventure, and someone (who like fish) smells after three days.<br/>
+            What the government does to your money, and their excuse for doing so.<br/>
+            The list of these capital differences will solve this riddle.<br/>
+            <input type="text" name="r3"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+            
+            If you can figure out keys to this clue, your hopes of solving this riddle are looking up. Mind you, we're keeping tabs on your progress...<br/>
+            <input type="text" name="r4"/> <input type="button" onclick="check(this.form)" value="Check answer"/>
+            
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.r1.value=="SPAT")
+                    {
+                        alert('First Puzzle Solved!')
+                    }
+                else if(form.r2.value=="praise")
+                    {
+                        alert('First Puzzle Solved!')
+                    }
+                else if(form.r3.value=="AOQGKX")
+                    {
+                        alert("Third Puzzle Solved!")
+                    }
+                else if(form.r4.value=="qwertyuiopasdfghjklzxcvbnm")
+                    {
+                        alert("Fourth Puzzle Solved!")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>

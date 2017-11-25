@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Final Challenge</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            You've made it to the final page!
+        </h1>
+        
+        <form>
+            <br/>
+            Once you all have your clues, put your heads (and clues) together for the final message that will unlock your coveted reward!<br/><br/>
+            <input type="text" name="answer"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.answer.value=="what shall we set this to?")
+                    {
+                        alert('You have won!')
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>

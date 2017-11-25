@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Baxley Christmas </title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>A Very Merry Christmas 2017</h1>
+        <h2>A small gift, from Ryan to the family. Made with love and JavaScript.</h2>
+        
+        <p>
+            Merry Christmas everyone! Ryan here. I've been working hard at preparing a gift for this Christmas, only to find that my computer was maliciously hacked. I've updated my security somewhat... 
+        </p>
+        
+        <p>
+            <em>and have been embarrasingly locked out. </em>
+        </p>
+        
+        <p>
+            Now, it's your job to help me regain access to my computer, by means of outwitting my personal security protocol, whose cleverness must be a tribute to the <em>intelligent</em> developer responsible. (Oh wait, that's me.) 
+        </p>
+        
+        <h3>Your Mission, Should You Choose To Accept It...</h3>
+        <p>
+            Is to embark on a battle of wits, solving puzzles, cracking codes, and testing your mettle against the metal machine that stands in your way between you and a prize of great value.
+        </p>
+        
+        <p>
+            You will be faced with many enigmas...some of which you may be able to solve on your own...but mostly not. You must place your utmost confidence in fellow agents; choose your alliances carefully.
+        </p>
+        
+        <h3>A Few Rules...</h3>
+        <p>
+            You will each obtain unique login information "encrypted" in the email that shared this webpage's link. Do not share your login information with anyone, <em>even</em> trusted allies. You may, however, share any content on your unique webpages.
+        </p>
+        
+        <p>
+            You are welcome to use any resources you can manage...many puzzles may need a quick Google search to learn code-breaking methodologies, perhaps you'll have to reference reading material, or even interview witnesses to obtain important information.
+        </p>
+        
+        <p>
+            Above all, be flexible, clever, good-humored, and you may find yourself enjoying this adventure. Best of luck, Ryan.
+        </p>
+        
+        <form>
+            Username: <input type="text" name="user"/>
+            <br/>
+            Password: <input type="password" name="pass"/>
+            <br/>
+            <input type="button" onclick ="check(this.form)" value="Enter the Arena"/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.user.value == "Mom" && form.pass.value == "Mommy")
+                    {
+                        window.open('mom.html')
+                    }
+                else if(form.user.value == "Erin" && form.pass.value == "BigSis")
+                    {
+                        window.open('erin.html')
+                    }
+                else if(form.user.value == "Steven" && form.pass.value == "Brother")
+                    {
+                        window.open('steven.html')
+                    }
+                else if(form.user.value == "Caroline" && form.pass.value == "LilSis")
+                    {
+                        window.open('caroline.html')
+                    }
+                else if(form.user.value == "Baxley" && form.pass.value == "Christmas")
+                    {
+                        window.open('final.html')
+                    }
+                else
+                    {
+                        alert("Invalid information, you imposter!")
+                    }
+            }
+        </script>
+        
+    </body>
+</html>
