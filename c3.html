@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Caroline</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Caroline - Puzzle 3
+        </h1>
+        
+        <form>
+            <br/>
+            Now that your learning to drive,<br/>
+            My main objective is to stay ______.<br/><br/>
+            You can drive the car to school, you can drive the car to church,<br/>
+            However don't go over 80mph, or surely my stomach will ______.<br/><br/>
+            Take the car to Paris, or go visit Rome,<br/>
+            But you'll always be wanted here at ______.<br/><br/>
+            AF LU TI UV ER LE SU TR CU HN HT MO AM EN<br/> 
+            <input type="text" name="r3"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.riddle.value=="FUTURE STUNTMAN")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open("c4.html","_self")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>

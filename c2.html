@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Caroline</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Caroline - Puzzle 2
+        </h1>
+        
+        <form>
+            <br/>
+            If you focus on the numbers when you "shimmy" mon amie: 15 53 88 52<br/>
+            <input type="text" name="riddle"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.riddle.value=="PIRaTe")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open("c3.html","_self")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>

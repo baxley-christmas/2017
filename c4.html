@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Caroline</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Caroline - Puzzle 4
+        </h1>
+        
+        <form>
+            <br/>
+            Here's a sink or swim sort of challenge, see if you can decode this fair and square. I know you excel at puzzles.<br/><br/>
+            0000000000000000000
+            0000000000000000000
+            0000000000000000000
+            0000100000001100010
+            0000100000010010110
+            0000100000010010010
+            0001010000010010110
+            0010001000001100010
+            0100000100000000010
+            0000000000000000000
+            0111111100000111000
+            0000100000001000100
+            0000100000010000010
+            0000100000010000010
+            0000100000001000100
+            0000100000000111000
+            0000000000000000000
+            0000000000000000000
+            0000000000000000000<br/>
+            <input type="text" name="r4"/>  <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.riddle.value=="swimming")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open("c5.html","_self")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>
