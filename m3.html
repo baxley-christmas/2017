@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Mom</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Mom - Puzzle 3
+        </h1>
+        
+        <form>
+            Find the difference between...<br/> 
+            Homer's famous story gone vehicular, and a shoot'em up vigilante.<br/>
+            An adventure, and someone (who like fish) smells after three days.<br/>
+            What the government does to your money, and their excuse for doing so.<br/>
+            The list of these capital differences will solve this riddle.<br/>            
+            <input type="text" name="riddle"/>  <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.riddle.value=="AOQGKX")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open("m4.html","_self")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>
