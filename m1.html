@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Mom</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Mom - Puzzle 1
+        </h1>
+        
+        <form>
+            Solve this riddle and you will see,<br/>
+            Possibly that your children can be,<br/>
+            All around good kids, not cloistered,<br/>
+            Thanks to you, afterall, the world is their oyster.<br/>
+            <input type="text" name="riddle"/>  <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.riddle.value=="SPAT")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open("m2.html","_self")
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>
