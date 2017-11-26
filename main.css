@@ -48,6 +48,10 @@ img {
     max-width: 95%;
 }
 
+video {
+    margin: 1.3em auto;
+}
+
 @keyframes colorize {
     0% {
         -webkit-filter: grayscale(100%);
