@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Erin</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Welcome Erin!
+        </h1>
+        
+        <p>
+            Here begins your journey. Riddles will either require answers in the form of case-sensitive letters, numbers, or both. Best of luck!
+        </p>
+        
+        <form>
+            <br/>
+            When you're faced with a fellow who edovryelevasnssl, you must: iefoarhtefteimr<br/>
+            <input type="text" name="r"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.r.value=="aim for their feet")
+                    {
+                        alert('Puzzle Solved!')
+                        window.open('e2.html')
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+        
+    </body>
+</html>
