@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome Steven</title>
+        <meta name="description" content="A Baxley Christmas present.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>
+            Welcome Steven!
+        </h1>
+        
+        <form>
+            <br/>
+            Just the number... <audio controls>
+            <source src="https://docs.google.com/uc?export=download&id=1HnY6waZsX5jqPune8xG6ZzsphW6N_3Mg">
+            Your browser does not support the audio tag.
+            </audio><br/>
+            <input type="text" name="r2"/> <input type="button" onclick="check(this.form)" value="Check answer"/><br/><br/>
+        </form>
+        
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.r.value=="12")
+                    {
+                        alert('Puzzle Solved!')
+                    }
+                else
+                    {
+                        alert("Incorrect! Try again.")
+                    }
+            }
+        </script>
+        
+    </body>
+</html>
